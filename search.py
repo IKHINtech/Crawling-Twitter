@@ -11,7 +11,7 @@ print("#===============================================#")
 
 qry = input("Masukkan Query yang akan anda cari :") #input query yang akan dicari
 fName = input("Nama File Hasil Crawling :") #input nama file hasil pencarian
-maxTweets = input("Isi Maksimal Tweets :") #500# Isi sembarang nilai sesuai kebutuhan anda
+maxTweets = 500# Isi sembarang nilai sesuai kebutuhan anda
 tweetsPerQry = 100  # Jangan isi lebih dari 100, ndak boleh oleh Twitter
 
 auth = tweepy.AppAuthHandler(consumer_key,consumer_secret)
